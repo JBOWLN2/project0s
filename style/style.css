@@ -1,0 +1,35 @@
+/* created a variable to hold and reuse this font stack */
+@media (max-width: 600px) {
+  img, table {
+    visibility: hidden; } }
+
+/* Combined SASS extend/inheritance and media to tag non-critical content for those viewing the website on small mobile devices */
+/* leveraged my extension selector to remove tables and images on tiny screens */
+body {
+  background-color: #c9c9ff; }
+
+a:visited {
+  color: grey; }
+
+a:hover {
+  color: #ff6961; }
+
+/* letting users know a link is active and clickable and that they have previously been to that page using the visited and hover selectors*/
+#brand {
+  font-family: "Verdana", Geneva, sans-serif;
+  font-weight: 700; }
+
+/* the TSRM brand will evolve as I develop my app and should appear once on each page, thus an id was used instead of a class*/
+.pgwelcome {
+  font-family: "Verdana", Geneva, sans-serif; }
+
+/* reusing my font stack variable instead of retyping the fonts each time*/
+.jumbotron {
+  background-color: #ffbdbd; }
+
+nav li {
+  font-weight: 100; }
+
+/* Used nesting to provide a cleaner (thinner) look on my list items within navigation menus */
+
+/*# sourceMappingURL=style.css.map */
